@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:visible="true"
+        android:id="@+id/dashgroup1">
+        <item
+            android:id="@+id/profi"
+            android:icon="@drawable/profile"
+            android:title="@string/profi" />
+        <item
+            android:id="@+id/vab"
+            android:icon="@drawable/viewab"
+            android:title="@string/view_available_buses" />
+        <item
+            android:id="@+id/hb"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/hire_bus" />
+        <item
+            android:id="@+id/logt"
+            android:icon="@drawable/logout"
+            android:title="@string/logout" />
+        <item
+                android:id="@+id/ext"
+                android:icon="@drawable/ex"
+                android:title="@string/exit1" />
+    </group>
+
+    <group android:checkableBehavior="single"
+    android:visible="true"
+        android:id="@+id/dashgroup2">
+        <item
+            android:id="@+id/adbus"
+            android:icon="@drawable/addbuss"
+            android:title="@string/add_bus" />
+        <item
+            android:id="@+id/rembus"
+            android:icon="@drawable/addbuss"
+            android:title="@string/remove_bus" />
+    <item
+            android:id="@+id/vab1"
+            android:icon="@drawable/viewab"
+            android:title="@string/view_available_buses1"
+            />
+    <item
+            android:id="@+id/vhb"
+            android:icon="@drawable/viewab"
+            android:title="@string/view_hired_buses1" />
+
+    <item
+            android:id="@+id/logt1"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+        <item
+                android:id="@+id/exts"
+                android:icon="@drawable/ex"
+                android:title="@string/exit1" />
+
+    </group>
+
+</menu>

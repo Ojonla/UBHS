@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/displaybusimg"
+                    android:layout_width="156dp"
+                    android:layout_height="98dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:padding="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/displaybusname" />
+
+                <TextView
+                    android:id="@+id/displaybusname"
+                    android:layout_width="257dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@id/displaybusimg"
+                    android:layout_toEndOf="@id/displaybusimg"
+                    android:text="Faculty of art Coaster Bus"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/displaybuscategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_below="@id/displaybusname"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@id/displaybusimg"
+                    android:layout_toEndOf="@id/displaybusimg"
+                    android:text="@string/category"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    app:layout_constraintStart_toEndOf="@+id/displaybusimg"
+                    app:layout_constraintTop_toBottomOf="@+id/displaybusname" />
+
+                <TextView
+                    android:id="@+id/displaybusmodel"
+                    android:layout_width="112dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/displaybuscategory"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@id/displaybusimg"
+                    android:layout_toEndOf="@id/displaybusimg"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="@string/model"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/displaybusimg"
+                    app:layout_constraintTop_toBottomOf="@+id/displaybuscategory" />
+
+                <TextView
+                    android:id="@+id/displaybusprice"
+                    android:layout_width="118dp"
+                    android:layout_height="0dp"
+                    android:layout_below="@id/displaybusmodel"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@id/displaybusimg"
+                    android:layout_toEndOf="@id/displaybusimg"
+                    android:text="@string/hire_price"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/displaybusimg"
+                    app:layout_constraintTop_toBottomOf="@+id/displaybusmodel" />
+
+                <TextView
+                    android:id="@+id/displaybusregno"
+                    android:layout_width="118dp"
+                    android:layout_height="0dp"
+                    android:layout_below="@id/displaybusmodel"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_toEndOf="@id/displaybusimg"
+                    android:layout_toRightOf="@id/displaybusimg"
+                    android:text="@string/registration_number"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/displaybuscategory"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/displaybusname"
+                    app:layout_constraintTop_toTopOf="@+id/displaybusname" />
+
+                <Button
+                    android:id="@+id/hirebusbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="8dp"
+
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/rounded"
+                    android:text="@string/hire_bus"
+                    android:textColor="@color/graylight"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:onClick="HireBus"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/displaybusimg" />
+
+
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+</android.support.constraint.ConstraintLayout>

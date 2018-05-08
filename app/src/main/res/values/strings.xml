@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">UBHS</string>
+    <string name="action_settings">Settings</string>
+    <string name="newbtn">New</string>
+    <string name="existbtn">Existing</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="register">REGISTER</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="ilogo">logo</string>
+    <string name="title_activity_register">Register</string>
+    <string name="surname">Surname</string>
+    <string name="othernames">othernames</string>
+    <string name="username1">Username</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="sex">Sex</string>
+    <string name="email_address">email address</string>
+    <string name="contact_address">Contact Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="pword">Password</string>
+    <string name="title_activity_userdash">Userdash</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="profile_view">Profile</string>
+    <string name="view_available_buses1">View Available Buses</string>
+    <string name="hire_bus1">Hire Bus</string>
+    <string name="logout">Logout</string>
+    <string name="exit1">Exit</string>
+    <string name="mytoast">username and password is correct</string>
+    <string name="profi">Profile</string>
+    <string name="view_available_buses">View Available Buses</string>
+    <string name="register2">Register</string>
+    <string name="title_activity_admindash">Admindash</string>
+    <string name="adbus">adbus</string>
+    <string name="rembus">rembus</string>
+    <string name="view_hired_buses1">view_hired_buses</string>
+    <string name="add_bus">Add Bus</string>
+    <string name="remove_bus">Remove Bus</string>
+    <string name="hire_bus">Hire Bus</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_add_bus">AddBus</string>
+    <string name="bus_name">Bus Name</string>
+    <string name="bus_registration_number">Bus Registration Number</string>
+    <string name="category">Category</string>
+
+    <string-array name="Category">
+        <item> </item>
+        <item>18 Seater </item>
+        <item>14 Seater</item>
+        <item>10 Seater</item>
+        <item>24 Seater</item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+    <string name="title_activity_view_av_bus">ViewAvBus</string>
+    <string name="hire_price">Hire Price</string>
+    <string name="model">Model</string>
+    <string name="browse_image">Browse image</string>
+    <string name="title_activity_removebus">Removebus</string>
+    <string name="help">Help</string>
+    <string name="surnameerr">Enter Surname</string>
+    <string name="othernameserr">Enter othernames</string>
+    <string name="usernameerr">Enter username</string>
+    <string name="passworderr">Enter password</string>
+    <string name="addresserr">Enter address</string>
+    <string name="phoneerr">Enter phone number</string>
+    <string name="emailerr">Enter email</string>
+    <string name="registration_number">registration_number</string>
+
+
+</resources>
